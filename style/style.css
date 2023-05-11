@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Noto Serif', serif;
+}    
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    outline: none;
+    top: 0;
+    background-color: #181414;
+    z-index: 10;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Noto Serif', serif;
+}
+
+.navbar-left { 
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.navbar-left img{
+    width: 80%;
+    min-width: 20px;
+    max-width: 100px;
+    align-items: center;
+    display: block;
+}
+
+.navbar-center { 
+    width: 600px;
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar-center ul {
+    font-size: clamp( 10px, 3.5vw, 22px );
+    width: 100%;
+    min-width: 40px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(34, 34, 34);
+}
+
+.navbar-center a {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-center a:visited,
+.navbar-center a:hover,
+.navbar-center a:focus,
+.navbar-center a:active {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-right {
+    width: 7%;
+    height: 100%;
+    display: flex;
+    margin-right: 2%;
+    align-items: center;
+}
+
+.navbar-right img{
+    width: 80%;
+    min-width: 20px;
+    max-width: 80px;
+    margin-right: 20%;
+    align-items: center;
+    display: block;
+
+}
+
+.main {
+    height: 1000px;
+    width: 100%;
+    background-color: #181414;
+    background-size: cover;
+    display: block;
+    align-items: center;
+}
+
+.main_name {
+    max-height: 350px;
+    margin: 0 auto;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.main_name_text {
+    margin-top: 100px;
+    font-size: clamp( 20px, 5vw, 56px );
+    color: rgb(255, 255, 255);
+    align-items:center;
+    text-align:center;
+}
+
+.main_block{
+    width:100%;
+    padding-right:10%;
+    padding-left:10%;
+    display: flex;
+}
+
+.main_box {
+    height:750px;
+    width:100%; 
+}
+
+.main_box_header {
+    width: 100%;
+    height: 7%;
+
+}
+
+.main_box_info {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    padding-top: 40px;
+
+}
+.main_box_text, .main_box_pic {
+    width: 50%;
+
+}
+
+.main_box_sale {
+    height: 150px;
+    font-size: clamp(26px, 4vw, 56px);
+    color: #fff;
+    padding-left: 10%;
+    padding-top: 60px;
+}
+
+.main_box_text_info {
+    height: 300px;
+    font-size: clamp(18px, 3.5vw, 30px);
+    color: #fff;
+    padding-top: 80px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.main_box_text_button { 
+    width: 300px;
+    height: 55px;
+    line-height: 50px;
+    margin-top: 30px;
+    margin-left: 10%;
+    border: 3px solid #ffffff;
+    border-radius: 10px; 
+    font-size: clamp(10px, 3vw, 24px);
+    color: #ffffff;
+    text-align: center;
+}
+
+.main_box_text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.main_box_text a:visited,
+.main_box_text a:hover,
+.main_box_text a:focus,
+.main_box_text a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.main_box_pic {
+    height: 610px ;
+    font-size: clamp(18px, 3.5vw, 30px);
+    align-items: center;
+    text-align: center;
+}
+
+.main_box_pic img {
+    width: 100%;
+    padding-top: 30%;
+}
+
+
+.first_page {
+    height: 1000px;
+    width: 100%;
+    background-color: #b1a0a0;
+    background-size: cover;
+    display: block;
+    align-items: center;
+}
+
+.first_page_info {
+    width:100%;
+    padding-right:10%;
+    padding-left:10%;
+    display: flex;
+    background-color: brown;
+}
+
+.first_page_title {
+    margin-top: 80px;
+    font-size: clamp( 20px, 5vw, 48px );
+    color: rgb(255, 255, 255);
+    background-color: aqua;
+}
+
+.first_page_block {
+    width: 100%;
+    height: 320px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: chartreuse;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.first_page_box {
+    margin-left: 1%;
+    padding-top: 2%;
+    padding-left: 2%;
+    width: 500px;
+    height: 300px;
+    background-color:rgb(255, 255, 255);
+
+}
+
+
+
+
+
+
